@@ -63,8 +63,8 @@ getGif: function(searchingText, callback) { //1.
     };
     return (
       <div style = {styles}>
-        <h1>Wyszukiwarka GIFowej magii!</h1>
-        <p>Znajdź gifa na <a href='http://giphy.com'>giphy</a>. Naciskaj enter, aby pobrać kolejne gify.</p>
+        <h1>Giphy Search</h1>
+        <p>Find GIF from <a href='http://giphy.com'>Giphy</a>. Press Enter, for more GIFs.</p>
         <Search onSearch= {this.handleSearch}/>
         <Gif
           loading={this.state.loading}
